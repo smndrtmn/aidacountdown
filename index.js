@@ -5,11 +5,10 @@
           day = hour * 24;
   
     //I'm adding this section so I don't have to keep updating this pen every year :-)
-    //remove this if you don't need it
-    birthday = new Date("04.08.2023")
+    //remove this if you don't need its
     //end
     
-    const countDown = new Date(birthday).getTime(),
+    const countDown = new Date("2023-04-08").getTime(),
         x = setInterval(function() {    
   
           const now = new Date().getTime(),
